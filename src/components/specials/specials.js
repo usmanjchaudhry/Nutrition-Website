@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // This will require to npm install axios
@@ -6,9 +6,22 @@ import './specials.css'
 
 
 
-export default class specials extends Component {
+function Specials() {
 
-    render() {
+    fetch("https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/random?number=4", {
+        "method": "GET",
+        "headers": {
+            "x-rapidapi-host": "spoonacular-recipe-food-nutrition-v1.p.rapidapi.com",
+            "x-rapidapi-key": "835907ab9emshe7e0ee47d7df2acp1b926djsn8ec7b1d4b220"
+        }
+    })
+    .then(response => {
+        console.log(response);
+    })
+    .catch(err => {
+        console.error(err);
+    });
+      
         return (
 
 
@@ -64,4 +77,4 @@ export default class specials extends Component {
 
             
   }
-}
+  export default Specials;

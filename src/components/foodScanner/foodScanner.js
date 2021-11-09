@@ -1,15 +1,20 @@
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
 // This will require to npm install axios
 import './foodScanner.css'
 
 
-export default class foodScanner extends Component {
 
-    render() {
+
+function FoodScanner() {
+   
+
+
+
         return (
-<h1 class = "words">This is the foodscanner page</h1>
+        <h1 class = "words">This is the foodscanner page</h1>
 
 
 );
-  }
-}
+        }
+
+  export default FoodScanner;
