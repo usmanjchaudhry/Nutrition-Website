@@ -1,0 +1,25 @@
+.words{
+    padding-top: 100px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.details{
+    font-size: var(--small-font-size);
+    text-align: center;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+}
+  
+.column {
+    display: flex;
+    flex: 50%;
+}
+
+.profile_pic {
+    width: 30%;
+    margin: 0.2em;
+}
