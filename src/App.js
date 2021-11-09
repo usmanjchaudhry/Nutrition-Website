@@ -11,7 +11,11 @@ import FoodScanner from "./components/foodScanner/foodScanner";
 import Landing from "./components/landing/landing"
 import Specials from "./components/specials/specials"
 import Mealplanner from "./components/mealPlanner/mealPlanner";
+
+import Footer from "./components/Footer/Footer";
+
 import AboutUs from "./components/aboutUs/aboutUs";
+
 
 const App = () => {
   return (
@@ -41,7 +45,11 @@ const App = () => {
       <Route path="/landing">
         <Landing />
         <Specials />
+
+        <Footer />
+
         <AboutUs />
+
       </Route>
     </div>
   );
