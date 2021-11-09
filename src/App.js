@@ -13,7 +13,7 @@ import Specials from "./components/specials/specials"
 import Mealplanner from "./components/mealPlanner/mealPlanner";
 import Footer from "./components/footer/footer"
 
-import Footer from "./components/Footer/Footer";
+import Footer from "./components/Footer/footer";
 
 import AboutUs from "./components/aboutUs/aboutUs";
 
@@ -49,9 +49,8 @@ const App = () => {
         <Specials />
 
 
-        <Footer />
-
         <AboutUs />
+        <Footer />
 
 
       </Route>
