@@ -1,15 +1,50 @@
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
 // This will require to npm install axios
 import './mealPlanner.css'
+import MealList from "./MealList";
 
 
-export default class mealPlanner extends Component {
 
-    render() {
-        return (
-<h1 class = "words">This is the meal Planner page</h1>
+function Mealplanner() {
+  const [mealData, setMealData] = useState(null);
+  const [calories, setCalories] = useState(2000);
+
+  function getMealData() {
+    fetch(
+      `https://api.spoonacular.com/mealplanner/generate?apiKey=cb1c464d94f142c08b156c5beddade8b&timeFrame=day&targetCalories=${calories}`
+    )
+      .then((response) => response.json())
+      .then((data) => {
+        setMealData(data);
+      })
+      .catch(() => {
+        console.log("error");
+      });
+  }
+
+  function handleChange(e) {
+    setCalories(e.target.value);
+  }
+
+
+
+
+    return (
+<div className="App">
+  <section className="controls">
+    <input
+      type="number"
+      placeholder="Calories (e.g. 2000)"
+      onChange={handleChange}
+    />
+    <button onClick={getMealData}>Get Daily Meal Plan</button>
+
+  </section>
+  {mealData && <MealList mealData={mealData} />}
+</div>
 
 
 );
-  }
 }
+
+export default Mealplanner;
