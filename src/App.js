@@ -1,6 +1,6 @@
 import React from "react";
 import './App.css';
-
+import ReactDOM from "react-dom";
 // We use Route in order to define the different routes of our application
 import { Route } from "react-router-dom";
 
@@ -11,6 +11,7 @@ import FoodScanner from "./components/foodScanner/foodScanner";
 import Landing from "./components/landing/landing"
 import Specials from "./components/specials/specials"
 import Mealplanner from "./components/mealPlanner/mealPlanner";
+import Footer from "./components/footer/footer"
 
 import Footer from "./components/Footer/footer";
 
@@ -25,6 +26,7 @@ const App = () => {
       <Route exact path="/">
       <Landing />
       <Specials />
+      <Footer/>
       </Route>
 
       
@@ -46,10 +48,10 @@ const App = () => {
         <Landing />
         <Specials />
 
-        
 
         <AboutUs />
         <Footer />
+
 
       </Route>
     </div>
