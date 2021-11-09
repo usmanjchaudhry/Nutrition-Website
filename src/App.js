@@ -13,6 +13,11 @@ import Specials from "./components/specials/specials"
 import Mealplanner from "./components/mealPlanner/mealPlanner";
 import Footer from "./components/footer/footer"
 
+import Footer from "./components/Footer/Footer";
+
+import AboutUs from "./components/aboutUs/aboutUs";
+
+
 const App = () => {
   return (
     <div>
@@ -42,7 +47,13 @@ const App = () => {
       <Route path="/landing">
         <Landing />
         <Specials />
-        <Footer/>
+
+
+        <Footer />
+
+        <AboutUs />
+
+
       </Route>
     </div>
   );
