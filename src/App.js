@@ -11,7 +11,6 @@ import FoodScanner from "./components/foodScanner/foodScanner";
 import Landing from "./components/landing/landing"
 import Specials from "./components/specials/specials"
 import Mealplanner from "./components/mealPlanner/mealPlanner";
-import Footer from "./components/footer/footer"
 
 import Footer from "./components/Footer/footer";
 
