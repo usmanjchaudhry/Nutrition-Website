@@ -20,7 +20,7 @@ export default class landing extends Component {
                     <Form className="d-flex">
           <FormControl
             type="search"
-            placeholder="Search"
+            placeholder="Enter a food here"
             className="me-2"
             aria-label="Search"
           />
@@ -28,7 +28,7 @@ export default class landing extends Component {
         </Form>
                 </div>
 
-                <img src="https://o.remove.bg/downloads/98f64833-58c7-477c-b49b-26854b949b0b/istockphoto-1131794871-1024x1024-removebg-preview.png" alt="" class="home__img"/>
+                <img src="img/vegetables.png" alt="" class="home__img"/>
             </div>
         </section>
 
