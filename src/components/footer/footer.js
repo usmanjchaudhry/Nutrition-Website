@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 //import { Form, FormControl, Button} from 'react-bootstrap'
 
 // This will require to npm install axios
-import './Footer.css'
+import './footer.css'
 
 
 

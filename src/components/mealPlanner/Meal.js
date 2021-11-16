@@ -9,6 +9,7 @@ export default function Meal({ meal }) {
     )
       .then((response) => response.json())
       .then((data) => {
+        console.log(data)
         setImageUrl(data.image);
       })
       .catch(() => {

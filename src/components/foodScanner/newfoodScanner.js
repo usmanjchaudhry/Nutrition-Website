@@ -48,16 +48,26 @@ class FoodScanner extends Component {
         }
 
 
+
        handleFile(e){
 
         let file  = e.target.files[0]      
          this.setState({file: file})
 
+
+
+
+
+
+         
        }
     
+
+       
+
+ 
         render(){
 
-                
 
         return (
         <form>

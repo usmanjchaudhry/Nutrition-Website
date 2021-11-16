@@ -15,13 +15,13 @@ function Specials() {
             "x-rapidapi-key": "835907ab9emshe7e0ee47d7df2acp1b926djsn8ec7b1d4b220"
         }
     })
-    .then(response => {
-        console.log(response);
-    })
-    .catch(err => {
-        console.error(err);
-    });
-      
+    .then((response) => response.json())
+      .then((data) => {
+        console.log(data.recipes[0].im)
+      })
+      .catch(() => {
+        console.log("error");
+      });
         return (
 
 
