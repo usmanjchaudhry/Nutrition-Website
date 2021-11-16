@@ -5,6 +5,7 @@ import './navbar.css'
 import "bootstrap/dist/css/bootstrap.css";
  
 // We import NavLink to utilize the react router.
+import {NavLink} from 'react-router-dom';
 
 const navMenu = document.getElementById('nav-menu'),
     navToggle = document.getElementById('nav-toggle'),
@@ -52,21 +53,21 @@ const Navbar = () => {
                 <div class="nav__menu show-menu" id="nav-menu">
                     <ul class="nav__list grid">
                         <li class="nav__item">
-                            <a href="/landing" class="nav__link active-link">
+                            <NavLink to="/landing" className="nav__link" activeClassName="active-link">
                                 <i class="uil uil-home nav__icon"></i> Home
-                            </a>
+                            </NavLink>
 
                         </li>
                         <li class="nav__item">
-                            <a href="/mealPlanner" class="nav__link">
-                            <i class="uil uil-calendar-alt nav__icon"></i> Meal Planner
-                            </a>
+                            <NavLink to="/mealPlanner" className="nav__link" activeClassName="active-link">
+                                <i class="uil uil-calendar-alt nav__icon"></i> Meal Planner
+                            </NavLink>
                             
                         </li>
                         <li class="nav__item">
-                            <a href="/foodScanner" class="nav__link">
-                            <i class="uil uil-qrcode-scan nav__icon"></i> Food Scanner
-                            </a>
+                            <NavLink to="/foodScanner" className="nav__link" activeClassName="active-link">
+                                <i class="uil uil-qrcode-scan nav__icon"></i> Food Scanner
+                            </NavLink>
                             
                         </li>
                       
@@ -74,7 +75,7 @@ const Navbar = () => {
                     </ul>
                 </div>
 
-                <div class="nav__btns">
+                {/* <div class="nav__btns">
                   
 
 
@@ -82,7 +83,7 @@ const Navbar = () => {
                     <div class="nav__toggle" id="nav-toggle">
                         <i class="uil uil-apps"></i>
                     </div>
-                </div>
+                </div> */}
             </div>
         </header>
   );

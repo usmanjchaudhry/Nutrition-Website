@@ -11,9 +11,10 @@ import FoodScanner from "./components/foodScanner/foodScanner";
 import Landing from "./components/landing/landing"
 import Specials from "./components/specials/specials"
 import Mealplanner from "./components/mealPlanner/mealPlanner";
+
 import Search from "./components/search/search";
 
-import Footer from "./components/Footer/Footer";
+import Footer from "./components/Footer/footer";
 
 import AboutUs from "./components/aboutUs/aboutUs";
 
@@ -53,8 +54,6 @@ const App = () => {
       <Route path="/landing">
         <Landing />
         <Specials />
-
-
 
         <AboutUs />
         <Footer />
