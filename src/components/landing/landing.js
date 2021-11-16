@@ -7,6 +7,7 @@ import './landing.css'
 
 
 
+
 export default class landing extends Component {
 
     render() {
@@ -18,17 +19,19 @@ export default class landing extends Component {
                     <h1 class="home__title">Curious about food?</h1>
                     <h2 class="home__subtitle">Find out more <br/> about what you eat:</h2>
                     <Form className="d-flex">
-          <FormControl
-            type="search"
-            placeholder="Enter a food here"
-            className="me-2"
-            aria-label="Search"
-          />
-          <Button variant="outline-success">Search</Button>
+
+
+      
+          
+          <Button variant="outline-success" href="/search">Search Recipes </Button>
         </Form>
                 </div>
 
+               
+
+       
                 <img src="img/vegetables.png" alt="" class="home__img"/>
+
             </div>
         </section>
 

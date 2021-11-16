@@ -11,7 +11,11 @@ import FoodScanner from "./components/foodScanner/foodScanner";
 import Landing from "./components/landing/landing"
 import Specials from "./components/specials/specials"
 import Mealplanner from "./components/mealPlanner/mealPlanner";
+
+import Search from "./components/search/search";
+
 import Footer from "./components/Footer/footer";
+
 import AboutUs from "./components/aboutUs/aboutUs";
 
 
@@ -24,6 +28,7 @@ const App = () => {
       <Landing />
       <Specials />
       <AboutUs />
+
       <Footer/>
       </Route>
 
@@ -42,9 +47,14 @@ const App = () => {
         <Mealplanner />
       </Route>
 
+      <Route path="/search">
+        <Search />
+      </Route>
+
       <Route path="/landing">
         <Landing />
         <Specials />
+
         <AboutUs />
         <Footer />
 
