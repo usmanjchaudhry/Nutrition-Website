@@ -1,25 +1,33 @@
 .words{
     padding-top: 100px;
-    padding-bottom: 20px;
     text-align: center;
 }
 
 .details{
-    font-size: var(--small-font-size);
+    font-size: 0.7em;
     text-align: center;
     margin: auto;
 }
 
-.row {
-    display: flex;
+.about_us_container {
+    margin-bottom: 3em;
 }
   
-.column {
+.profile_container {
     display: flex;
     flex: 50%;
+    justify-content: center;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5em;
 }
 
-.profile_pic {
+.profile{
     width: 30%;
     margin: 0.2em;
+}
+
+h1 {
+    margin-bottom: 0.5em;
 }
