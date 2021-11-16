@@ -11,11 +11,12 @@ function Mealplanner() {
 
   function getMealData() {
     fetch(
-      `https://api.spoonacular.com/mealplanner/generate?apiKey=cb1c464d94f142c08b156c5beddade8b&timeFrame=day&targetCalories=${calories}`
+      `https://api.spoonacular.com/mealplanner/generate?apiKey=cabe11c03f694e5fa82994e4d70adc60&timeFrame=day&targetCalories=${calories}`
     )
       .then((response) => response.json())
       .then((data) => {
         setMealData(data);
+        console.log(data)
       })
       .catch(() => {
         console.log("error");
