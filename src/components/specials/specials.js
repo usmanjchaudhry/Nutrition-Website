@@ -8,20 +8,9 @@ import './specials.css'
 
 function Specials() {
 
-    fetch("https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/random?number=4", {
-        "method": "GET",
-        "headers": {
-            "x-rapidapi-host": "spoonacular-recipe-food-nutrition-v1.p.rapidapi.com",
-            "x-rapidapi-key": "835907ab9emshe7e0ee47d7df2acp1b926djsn8ec7b1d4b220"
-        }
-    })
-    .then((response) => response.json())
-      .then((data) => {
-        console.log(data.recipes[0].im)
-      })
-      .catch(() => {
-        console.log("error");
-      });
+
+   
+  
         return (
 
 

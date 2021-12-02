@@ -1,5 +1,7 @@
 
-  
+  a{
+    color: black
+  }
   button:hover {
     cursor: pointer;
     background-color:lightgreen
