@@ -24,47 +24,47 @@ export default class Footer extends Component {
                             </h1>
             {/*Column 1 */}
             
-            <div className= "col-md-3 col-sm-4">
+            {/* <div className= "col-md-3 col-sm-4">
             <h4>Nutrifacts Information</h4>
             <ul className="list-unstyled">
                 <li>123-456-789</li>
                 <li>Los Angeles, CA </li>
                 <li>123 Place st.</li>
             </ul>
-            </div>
+            </div> */}
             
             {/*Column 2 */}
             
-            <div className= "col-md-3 col-sm-6">
+            {/* <div className= "col-md-3 col-sm-6">
             <h4>About Us</h4>
             <ul className="list-unstyled">
                 <a href="/" target="_blank" rel="noopener noreferrence"> Story <br /></a>
                 <a href="/" target="_blank" rel="noopener noreferrence"> Users <br/></a>
                 <a href="/" target="_blank" rel="noopener noreferrence"> Information<br/></a>
             </ul>
-            </div>
+            </div> */}
             
             {/*Column 3 */}
             
-            <div className= "col-md-3 col-sm-6">
+            {/* <div className= "col-md-3 col-sm-6">
             <h4>Contact Us</h4>
             <ul className="list-unstyled">
                 <a href="/" target="_blank" rel="noopener noreferrence"> United States <br /></a>
                 <a href="/" target="_blank" rel="noopener noreferrence"> link <br/></a>
                 <a href="/" target="_blank" rel="noopener noreferrence"> Support</a>
             </ul>
-            </div>
+            </div> */}
             
             {/*Column 4 */}
             
-            <div className= "col">
+            {/* <div className= "col">
             <h4>Socials</h4>
             <ul className="list-unstyled">
                 <a href="/" target="_blank" rel="noopener noreferrence"> Instagram <br /></a>
                 <a href="/" target="_blank" rel="noopener noreferrence"> Facebook <br/></a>
                 <a href="/" target="_blank" rel="noopener noreferrence"> Twitter<br/></a>
             </ul>
-            </div>
+            </div> */}
 
 
             </div>

@@ -10,14 +10,13 @@
 }
 
 a { 
-    color: #FFF;
+    color: black;
     padding: 0em;
 }
 
 a:hover{
     color:black
 }
-
 
 .footer-bottom {
     text-align: center;

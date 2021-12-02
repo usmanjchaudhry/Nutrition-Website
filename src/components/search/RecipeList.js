@@ -8,8 +8,9 @@ export default function RecipeList({ recipeData }) {
 
     return (
         <main>
-            
-        <h1>Here are the results.</h1>
+        
+        <br/>
+        <h1>Here are your results:</h1>
 
 
 

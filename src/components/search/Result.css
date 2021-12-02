@@ -1,5 +1,5 @@
-a{
-    color: black;
+.dish{
+    max-width: 400px;
 }
 
 .recipe_link{
@@ -7,5 +7,4 @@ a{
     margin-right: auto;
     font-weight: bold;
     font-size: 20px;
-    padding-top: 0em;
 }
