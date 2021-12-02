@@ -8,20 +8,9 @@ import './specials.css'
 
 function Specials() {
 
-    fetch("https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/random?number=4", {
-        "method": "GET",
-        "headers": {
-            "x-rapidapi-host": "spoonacular-recipe-food-nutrition-v1.p.rapidapi.com",
-            "x-rapidapi-key": "835907ab9emshe7e0ee47d7df2acp1b926djsn8ec7b1d4b220"
-        }
-    })
-    .then((response) => response.json())
-      .then((data) => {
-        console.log(data.recipes[0].im)
-      })
-      .catch(() => {
-        console.log("error");
-      });
+
+   
+  
         return (
 
 
@@ -32,35 +21,35 @@ function Specials() {
 
         <div class="menu__container bd-grid">
             <div class="menu__content">
-                <img src="https://www.chelseasmessyapron.com/wp-content/uploads/2016/05/BBQ-Chicken-Salad-4.jpg" alt="" class="menu__img"/>
-                <h3 class="menu__name">Barbecue salad</h3>
-                <span class="menu__detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
-                <span class="menu__preci">2200 calories</span>
-                <a href="/" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                <img src="https://spoonacular.com/recipeImages/394151-556x370.jpg" alt="" class="menu__img"/>
+                <h3 class="menu__name">Breaded Turkey Slices</h3>
+                <span class="menu__detail">Ready in minutes: 20</span>
+                <span class="menu__preci">Type of cuisine: American</span>
+                <a href='http://www.tasteofhome.com/Recipes/breaded-turkey-slices' class="recipe_link">Go to Recipe</a>
             </div>
 
             <div class="menu__content">
-                <img src="https://www.lanascooking.com/wp-content/uploads/2021/07/simple-seasoned-grilled-fish-feature-1200.jpg" alt="" class="menu__img"/>
-                <h3 class="menu__name">Grilled fish</h3>
-                <span class="menu__detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
-                <span class="menu__preci">1200 calories</span>
-                <a href="/" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                <img src="https://spoonacular.com/recipeImages/474896-556x370.jpg" alt="" class="menu__img"/>
+                <h3 class="menu__name">Bacon Alfredo Pasta</h3>
+                <span class="menu__detail">Ready in minutes: 30</span>
+                <span class="menu__preci">Type of cuisine: Mediterranean, Italian, European</span>
+                <a href='http://www.tasteandtellblog.com/bacon-alfredo-pasta/' class="recipe_link">Go to Recipe</a>
             </div>
             
             <div class="menu__content">
-                <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/20191219-seo-steak-eggs-delish-ehg-8987-jpg-1579900349.jpg" alt="" class="menu__img"/>
-                <h3 class="menu__name">Steak and Eggs</h3>
-                <span class="menu__detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
-                <span class="menu__preci">950 calories</span>
-                <a href="/" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                <img src="https://spoonacular.com/recipeImages/479543-556x370.jpg" alt="" class="menu__img"/>
+                <h3 class="menu__name">Sundried Tomato Pesto <br/> Panini</h3>
+                <span class="menu__detail">Ready in minutes: 45</span>
+                <span class="menu__preci">Type of cuisine: Mediterranean, Italian, European</span>
+                <a href='http://feedmephoebe.com/2012/02/sundried-tomato-pesto-panini/' class="recipe_link">Go to Recipe</a>
             </div>
 
             <div class="menu__content">
-                <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/20191219-seo-steak-eggs-delish-ehg-8987-jpg-1579900349.jpg" alt="" class="menu__img"/>
-                <h3 class="menu__name">Steak and Eggs</h3>
-                <span class="menu__detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
-                <span class="menu__preci">950 calories</span>
-                <a href="/" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                <img src="https://spoonacular.com/recipeImages/168677-556x370.jpg" alt="" class="menu__img"/>
+                <h3 class="menu__name">Slow-Cooker Cheesy Corn Dog Casserole</h3>
+                <span class="menu__detail">Ready in minutes: 30</span>
+                <span class="menu__preci">Type of cuisine: American</span>
+                <a href='http://www.BettyCrocker.com/recipes/slow-cooker-cheesy-corn-dog-casserole/1d556102-e932-4aa3-a282-3b21b4c2a7ef' class="recipe_link">Go to Recipe</a>
             </div>
 
             

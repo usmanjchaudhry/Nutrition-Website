@@ -17,7 +17,7 @@ export default class landing extends Component {
             <div class="home__container bd-container bd-grid">
                 <div class="home__data">
                     <h1 class="home__title">Curious about food?</h1>
-                    <h2 class="home__subtitle">Find out more <br/> about what you eat:</h2>
+                    <h2 class="home__subtitle">Find out new and <br/> interesting recipes:</h2>
                     <Form className="d-flex">
 
 

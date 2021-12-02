@@ -13,15 +13,15 @@ function aboutUs() {
 
                 <div class="profile_container">
                     <div class="profile">
-                        <img src="https://images.freeimages.com/images/premium/previews/2921/29216242-male-chef-portrait.jpg" alt=""/>
+                        <img src="img/Brandon.jpg" alt=""/>
                         <p class = "details">Brandon Pacol</p>
                     </div>
                     <div class="profile">
-                        <img src="https://images.freeimages.com/images/premium/previews/2921/29216242-male-chef-portrait.jpg" alt=""/>
+                        <img src="img/Usman.png" alt=""/>
                         <p class = "details">Usman Chaudhry</p>
                     </div>
                     <div class="profile">
-                        <img src="https://images.freeimages.com/images/premium/previews/2921/29216242-male-chef-portrait.jpg" alt=""/>
+                        <img src="img/Francisco.jpg" alt=""/>
                         <p class = "details">Francisco Gomez</p>
                     </div>
                 </div>

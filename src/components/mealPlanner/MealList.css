@@ -1,4 +1,8 @@
-.meals{
-    display: flex;
-    padding-bottom: 50px;
+.nutrients{
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.nutrition{
+    padding: 1em;
 }
