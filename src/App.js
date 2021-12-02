@@ -14,7 +14,7 @@ import Mealplanner from "./components/mealPlanner/mealPlanner";
 
 import Search from "./components/search/search";
 
-import Footer from "./components/Footer/footer";
+import Footer from "./components/footer/footer";
 
 import AboutUs from "./components/aboutUs/aboutUs";
 

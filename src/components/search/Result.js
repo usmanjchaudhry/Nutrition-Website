@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Result.css"
 
-
 export default function Meal({ result }) {
 
     const [imageUrl, setImageUrl] = useState("");

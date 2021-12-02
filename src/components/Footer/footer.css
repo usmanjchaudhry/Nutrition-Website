@@ -12,10 +12,12 @@
 a { 
     color: black;
     padding: 0em;
+    width:auto;
+    margin-top: auto;
 }
 
 a:hover{
-    color:black
+    color:var(--first-color)
 }
 
 .footer-bottom {

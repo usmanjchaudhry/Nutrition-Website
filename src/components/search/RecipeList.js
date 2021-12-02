@@ -1,6 +1,6 @@
 import React from "react";
 import Result from "./Result";
-
+import "./RecipeList.css"
 
 export default function RecipeList({ recipeData }) {
 
