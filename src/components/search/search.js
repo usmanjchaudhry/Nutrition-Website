@@ -28,7 +28,7 @@ function Search() {
    
     return (
         <div className="App">
-        <h1 class = "words">This is the search page</h1>
+        <h1 class = "words"><b>Looking to find new food?</b></h1>
         <input type ="text" id="searchField" placeholder ="Search a Recipe..." onChange = {handleChange}/>
         <button onClick = {getRecipeData}>Search Recipes</button>
         <div id = "output"></div>

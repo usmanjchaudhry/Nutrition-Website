@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import "./Result.css"
 
 
 export default function Meal({ result }) {
@@ -19,7 +20,7 @@ export default function Meal({ result }) {
       });
   }, [result.id]);
 return(
-<article>
+  <article class="dish">
       <h1>{result.title}</h1>
       <img src={imageUrl} alt="recipe" />
       <ul className="instructions">
@@ -27,7 +28,7 @@ return(
         <li>Number of servings: {result.servings}</li>
       </ul>
 
-      <a href={result.sourceUrl}>Go to Recipe</a>
+      <a href={result.sourceUrl} class="recipe_link">Go to Recipe</a>
     </article>
 
 
