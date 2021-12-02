@@ -28,9 +28,21 @@ function Search() {
    
     return (
         <div className="App">
-        <h1 class = "words">This is the search page</h1>
-        <input type ="text" id="searchField" placeholder ="Search a Recipe..." onChange = {handleChange}/>
-        <button onClick = {getRecipeData}>Search Recipes</button>
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
+        
+        <div class = "wrapper">
+        <img src="img/Capture.png" alt="" class="searchPage__img"/>
+        
+
+        <div class = "search-wrapper">
+        <h1 class = "wordSearch">Find a Recipe</h1>
+        <input class="inputSearch" type ="text" id="searchField" placeholder ="" onChange = {handleChange}/>
+        <button class="buttonSearch" onClick = {getRecipeData}>
+        <i class="uil uil-search"></i>
+        </button>
+        </div>
+        </div>
+        
         <div id = "output"></div>
         {recipeData && <RecipeList recipeData = {recipeData} />}
         </div>

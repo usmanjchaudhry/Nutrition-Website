@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from "react";
+import './mealPlanner.css'
+import './Meal.css'
+
 
 export default function Meal({ meal }) {
   const [imageUrl, setImageUrl] = useState("");
