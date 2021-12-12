@@ -14,7 +14,7 @@ import Mealplanner from "./components/mealPlanner/mealPlanner";
 
 import Search from "./components/search/search";
 
-import Footer from "./components/footer/footer";
+import Footer from "./components/Footer/footer";
 
 import AboutUs from "./components/aboutUs/aboutUs";
 
@@ -45,10 +45,12 @@ const App = () => {
       
       <Route path="/mealPlanner">
         <Mealplanner />
+       
       </Route>
 
       <Route path="/search">
         <Search />
+        
       </Route>
 
       <Route path="/landing">

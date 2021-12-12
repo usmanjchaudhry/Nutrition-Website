@@ -65,8 +65,8 @@ const Navbar = () => {
                             
                         </li>
                         <li class="nav__item">
-                            <NavLink to="/foodScanner" className="nav__link" activeClassName="active-link">
-                                <i class="uil uil-qrcode-scan nav__icon"></i> Food Scanner
+                            <NavLink to="/search" className="nav__link" activeClassName="active-link">
+                            <i class="uil uil-search"></i> Search Page
                             </NavLink>
                             
                         </li>
